@@ -7,18 +7,26 @@
 //
 
 #include <iostream>
-#include <math.h>
 using namespace std;
-int main()
+class CAT
 {
-    double a, b, c, p;
-    cin >> a >> b >> c;
-    if ((a + b > c) && (a + c > b) && (b + c > a)) {
-        p = (a + b + c) / 2;
-        cout << sqrt(p * (p - a) * (p - b) * (p - c)) << endl;
-    } else {
-        cout << "No" << endl;
-    }
-    return 0;
+    public:
+        CAT();
+        CAT(const CAT&);
+        ~CAT();
+        int GetAge() const { return *itsAge; }
+        void SetAge(int age){ *itsAge=age; }
+    protected:
+        int* itsAge;
+};
+CAT::CAT()
+{    itsAge=new int;
+    *itsAge =5;
 }
-
+CAT::CAT(const CAT& c)
+{
+    c.CAT::~CAT();
+    c.CAT::SetAge(c.GetAge());
+}
+CAT::~CAT()
+{     delete itsAge;   }
