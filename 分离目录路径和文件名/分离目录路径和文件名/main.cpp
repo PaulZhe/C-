@@ -2,26 +2,21 @@
 //  main.cpp
 //  分离目录路径和文件名
 //
-//  Created by 小哲的DELL on 2019/4/2.
-//  Copyright © 2019年 小哲的DELL. All rights reserved.
+//  Created by 小哲的dell on 2019/7/1.
+//  Copyright © 2019 小哲的dell. All rights reserved.
 //
 
 #include <iostream>
 #include <string>
+
 using namespace std;
 
-void file(string &str)
-{
-    int found = str.find_last_of("\\/");
-    cout << str.substr(0, found) << endl;
-    cout << str.substr(found + 1) << endl;
-    
-}
-
-int main()
-{
-    string str1;
-    getline(cin,str1);
-    file(str1);
+int main(int argc, const char * argv[]) {
+    string str, str1, str2;
+    cin >> str;
+    __SIZE_TYPE__ found = str.find_last_of("/\\");
+    str1 = str.substr(0, found);
+    str2 = str.substr(found+1);
+    cout << str1 << endl << str2 << endl;
     return 0;
 }

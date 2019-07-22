@@ -2,38 +2,32 @@
 //  main.cpp
 //  验证手机号码
 //
-//  Created by 小哲的DELL on 2019/4/2.
-//  Copyright © 2019年 小哲的DELL. All rights reserved.
+//  Created by 小哲的dell on 2019/7/1.
+//  Copyright © 2019 小哲的dell. All rights reserved.
 //
 
 #include <iostream>
-#include<string>
+#include <string>
 using namespace std;
-
-int main()
-{
-    int f1 = 0, f2 = 0, f3 = 1, i;
-    string str1;
-    getline(cin, str1);
-    if (str1.at(0) == '1') {
-        f1 = 1;
+int main(int argc, const char * argv[]) {
+    string str;
+    __SIZE_TYPE__ length;
+    cin >> str;
+    length = str.length();
+    if (length != 11) {
+        cout << "No" << endl;
+        return 0;
     }
-    if (str1.size() == 11) {
-        f2 = 1;
+    if (str[0] != '1') {
+        cout << "No" << endl;
+        return 0;
     }
-    for (i = 0; i < 11; i++) {
-        if (str1.at(i) <= '9' && str1.at(i) >= '0') {
-            continue;
-        } else {
-            f3 = 0;
-            break;
+    for (int i = 0; i < length; i++) {
+        if (str[i] > '9' || str[i] < '0') {
+            cout << "No" << endl;
+            return 0;
         }
     }
-    if(f1 == 1 && f2 == 1 && f3 == 1) {
-        cout << "Yes" << endl;
-    }
-    else{
-        cout << "No" << endl;
-    }
+    cout << "Yes" << endl;
     return 0;
 }

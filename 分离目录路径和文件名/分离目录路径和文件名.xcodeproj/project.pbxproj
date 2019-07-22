@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D602E25B22530479007887B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D602E25A22530479007887B2 /* main.cpp */; };
+		D62F95CD22C9A3B700961352 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D62F95CC22C9A3B700961352 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D602E25522530479007887B2 /* CopyFiles */ = {
+		D62F95C722C9A3B700961352 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D602E25722530479007887B2 /* 分离目录路径和文件名 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "分离目录路径和文件名"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D602E25A22530479007887B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D62F95C922C9A3B700961352 /* 分离目录路径和文件名 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "分离目录路径和文件名"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62F95CC22C9A3B700961352 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D602E25422530479007887B2 /* Frameworks */ = {
+		D62F95C622C9A3B700961352 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D602E24E22530479007887B2 = {
+		D62F95C022C9A3B700961352 = {
 			isa = PBXGroup;
 			children = (
-				D602E25922530479007887B2 /* 分离目录路径和文件名 */,
-				D602E25822530479007887B2 /* Products */,
+				D62F95CB22C9A3B700961352 /* 分离目录路径和文件名 */,
+				D62F95CA22C9A3B700961352 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D602E25822530479007887B2 /* Products */ = {
+		D62F95CA22C9A3B700961352 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D602E25722530479007887B2 /* 分离目录路径和文件名 */,
+				D62F95C922C9A3B700961352 /* 分离目录路径和文件名 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D602E25922530479007887B2 /* 分离目录路径和文件名 */ = {
+		D62F95CB22C9A3B700961352 /* 分离目录路径和文件名 */ = {
 			isa = PBXGroup;
 			children = (
-				D602E25A22530479007887B2 /* main.cpp */,
+				D62F95CC22C9A3B700961352 /* main.cpp */,
 			);
 			path = "分离目录路径和文件名";
 			sourceTree = "<group>";
@@ -65,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D602E25622530479007887B2 /* 分离目录路径和文件名 */ = {
+		D62F95C822C9A3B700961352 /* 分离目录路径和文件名 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D602E25E22530479007887B2 /* Build configuration list for PBXNativeTarget "分离目录路径和文件名" */;
+			buildConfigurationList = D62F95D022C9A3B700961352 /* Build configuration list for PBXNativeTarget "分离目录路径和文件名" */;
 			buildPhases = (
-				D602E25322530479007887B2 /* Sources */,
-				D602E25422530479007887B2 /* Frameworks */,
-				D602E25522530479007887B2 /* CopyFiles */,
+				D62F95C522C9A3B700961352 /* Sources */,
+				D62F95C622C9A3B700961352 /* Frameworks */,
+				D62F95C722C9A3B700961352 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,53 +79,53 @@
 			);
 			name = "分离目录路径和文件名";
 			productName = "分离目录路径和文件名";
-			productReference = D602E25722530479007887B2 /* 分离目录路径和文件名 */;
+			productReference = D62F95C922C9A3B700961352 /* 分离目录路径和文件名 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D602E24F22530479007887B2 /* Project object */ = {
+		D62F95C122C9A3B700961352 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = "小哲的DELL";
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "小哲的dell";
 				TargetAttributes = {
-					D602E25622530479007887B2 = {
-						CreatedOnToolsVersion = 9.3.1;
+					D62F95C822C9A3B700961352 = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = D602E25222530479007887B2 /* Build configuration list for PBXProject "分离目录路径和文件名" */;
+			buildConfigurationList = D62F95C422C9A3B700961352 /* Build configuration list for PBXProject "分离目录路径和文件名" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D602E24E22530479007887B2;
-			productRefGroup = D602E25822530479007887B2 /* Products */;
+			mainGroup = D62F95C022C9A3B700961352;
+			productRefGroup = D62F95CA22C9A3B700961352 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D602E25622530479007887B2 /* 分离目录路径和文件名 */,
+				D62F95C822C9A3B700961352 /* 分离目录路径和文件名 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D602E25322530479007887B2 /* Sources */ = {
+		D62F95C522C9A3B700961352 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D602E25B22530479007887B2 /* main.cpp in Sources */,
+				D62F95CD22C9A3B700961352 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D602E25C22530479007887B2 /* Debug */ = {
+		D62F95CE22C9A3B700961352 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -176,14 +176,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		D602E25D22530479007887B2 /* Release */ = {
+		D62F95CF22C9A3B700961352 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,13 +229,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		D602E25F22530479007887B2 /* Debug */ = {
+		D62F95D122C9A3B700961352 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -242,7 +244,7 @@
 			};
 			name = Debug;
 		};
-		D602E26022530479007887B2 /* Release */ = {
+		D62F95D222C9A3B700961352 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -253,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D602E25222530479007887B2 /* Build configuration list for PBXProject "分离目录路径和文件名" */ = {
+		D62F95C422C9A3B700961352 /* Build configuration list for PBXProject "分离目录路径和文件名" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D602E25C22530479007887B2 /* Debug */,
-				D602E25D22530479007887B2 /* Release */,
+				D62F95CE22C9A3B700961352 /* Debug */,
+				D62F95CF22C9A3B700961352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D602E25E22530479007887B2 /* Build configuration list for PBXNativeTarget "分离目录路径和文件名" */ = {
+		D62F95D022C9A3B700961352 /* Build configuration list for PBXNativeTarget "分离目录路径和文件名" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D602E25F22530479007887B2 /* Debug */,
-				D602E26022530479007887B2 /* Release */,
+				D62F95D122C9A3B700961352 /* Debug */,
+				D62F95D222C9A3B700961352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D602E24F22530479007887B2 /* Project object */;
+	rootObject = D62F95C122C9A3B700961352 /* Project object */;
 }
